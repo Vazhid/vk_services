@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="vk_proj" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTu-dd-2eH">
+                                <rect key="frame" x="0.0" y="86" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.021732511644632638" green="0.33385529190825486" blue="0.55276884890253808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="Вконтакте">
+                                    <color key="titleColor" white="1" alpha="0.86186322773972601" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VkPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zBX-tL-t6a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Es7-3d-yz4">
+                                <rect key="frame" x="0.0" y="157" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.02173251164" green="0.33385529190000002" blue="0.5527688489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="My.Games">
+                                    <color key="titleColor" white="1" alpha="0.86186322770000001" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="MygamesPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xim-ob-nD4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4d-26-8Rr">
+                                <rect key="frame" x="0.0" y="228" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.02173251164" green="0.33385529190000002" blue="0.5527688489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="Сферум">
+                                    <color key="titleColor" white="1" alpha="0.86186322770000001" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SferumPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQk-JQ-jXG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADv-c6-cOS">
+                                <rect key="frame" x="0.0" y="299" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.02173251164" green="0.33385529190000002" blue="0.5527688489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="Юла">
+                                    <color key="titleColor" white="1" alpha="0.86186322770000001" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="YulaPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KK3-cj-bI0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtJ-dg-rvt">
+                                <rect key="frame" x="0.0" y="370" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.02173251164" green="0.33385529190000002" blue="0.5527688489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="Самокат">
+                                    <color key="titleColor" white="1" alpha="0.86186322770000001" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SamokatPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aah-lJ-kDp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6I2-Ng-B13">
+                                <rect key="frame" x="0.0" y="441" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.02173251164" green="0.33385529190000002" blue="0.5527688489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="Ситидрайв">
+                                    <color key="titleColor" white="1" alpha="0.86186322770000001" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CitydrivePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G8Z-VP-Jbe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIF-uL-E4y">
+                                <rect key="frame" x="0.0" y="512" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.02173251164" green="0.33385529190000002" blue="0.5527688489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="Облако">
+                                    <color key="titleColor" white="1" alpha="0.86186322770000001" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="OblakoPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZz-iJ-3DM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="er3-yk-oby">
+                                <rect key="frame" x="0.0" y="583" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.02173251164" green="0.33385529190000002" blue="0.5527688489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="Все аптеки">
+                                    <color key="titleColor" white="1" alpha="0.86186322770000001" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VseaptekiPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ksv-1J-5SY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="997-wB-F5x">
+                                <rect key="frame" x="0.0" y="654" width="414" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.02173251164" green="0.33385529190000002" blue="0.5527688489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="25"/>
+                                <state key="normal" title="Календарь">
+                                    <color key="titleColor" white="1" alpha="0.86186322770000001" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CalendarPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T3G-VW-Kcd"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OZH-P5-kPz">
+                                <rect key="frame" x="0.0" y="32" width="414" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Сервисы VK">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="25" name="PTSans-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vk" translatesAutoresizingMaskIntoConstraints="NO" id="YHV-De-5qd">
+                                <rect key="frame" x="20" y="92" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mygames" translatesAutoresizingMaskIntoConstraints="NO" id="2aK-8i-60i">
+                                <rect key="frame" x="20" y="163" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sferum" translatesAutoresizingMaskIntoConstraints="NO" id="qZT-XO-cac">
+                                <rect key="frame" x="20" y="234" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="youla" translatesAutoresizingMaskIntoConstraints="NO" id="EnQ-b6-L9F">
+                                <rect key="frame" x="20" y="305" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="samokat" translatesAutoresizingMaskIntoConstraints="NO" id="crI-4H-JSg">
+                                <rect key="frame" x="20" y="376" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="citydrive" translatesAutoresizingMaskIntoConstraints="NO" id="EdB-8f-fKE">
+                                <rect key="frame" x="20" y="447" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="ASi-uW-uiu">
+                                <rect key="frame" x="20" y="518" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apteki" translatesAutoresizingMaskIntoConstraints="NO" id="LHU-1T-sz3">
+                                <rect key="frame" x="20" y="589" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="R40-wJ-dus">
+                                <rect key="frame" x="20" y="660" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.048752438250448005" green="0.3147683323763194" blue="0.5" alpha="0.86186322773972601" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="CalendarPage" destination="997-wB-F5x" id="KLo-Qj-PjQ"/>
+                        <outlet property="CitydrivePage" destination="6I2-Ng-B13" id="aZF-oX-Mdz"/>
+                        <outlet property="MygamesPage" destination="Es7-3d-yz4" id="93w-AO-a4V"/>
+                        <outlet property="OblakoPage" destination="DIF-uL-E4y" id="Z7m-gw-pmS"/>
+                        <outlet property="SamokatPage" destination="AtJ-dg-rvt" id="Fsx-Lo-svj"/>
+                        <outlet property="SferumPage" destination="A4d-26-8Rr" id="f0K-gT-dAd"/>
+                        <outlet property="VkPage" destination="ZTu-dd-2eH" id="vQ6-Xe-gcC"/>
+                        <outlet property="VseaptekiPage" destination="er3-yk-oby" id="3Sz-85-70U"/>
+                        <outlet property="YulaPage" destination="ADv-c6-cOS" id="qn5-jI-DFq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528.98550724637687" y="79.076086956521749"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apteki" width="68" height="68"/>
+        <image name="calendar" width="204" height="204"/>
+        <image name="citydrive" width="70" height="70"/>
+        <image name="cloud" width="204" height="204"/>
+        <image name="mygames" width="68" height="68"/>
+        <image name="samokat" width="68" height="68"/>
+        <image name="sferum" width="68" height="68"/>
+        <image name="vk" width="261" height="261"/>
+        <image name="youla" width="68" height="68"/>
+    </resources>
+</document>
